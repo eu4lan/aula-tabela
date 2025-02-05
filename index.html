@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        td, th {
+            border: 2px solid black;
+        }
+        tfoot{
+            background-color: aqua;
+        }
+        
+    </style>
+    <table>
+        <thead>
+            <tr> <!-- linhas -->
+                <th>produto</th> <!-- colunas -->
+                <th>quantidade</th>
+                <th>preço</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr> <!-- linhas -->
+                <td>produto 1</td> <!-- valor de cada linha -->
+                <td>5 unidades</td>
+                <td>20R$</td>
+            </tr>
+        </tbody>
+
+        <tbody>
+            <tr>
+                <td>produto 2</td>
+                <td>23 unidades</td>
+                <td>12R$</td>
+            </tr>
+        </tbody>
+
+        <tbody>
+            <tr>
+                <td colspan="2">produto 3</td>
+                <td>5 unidades</td>
+                <td>200R$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">total:</td>
+                <td>232R$</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+</html>
